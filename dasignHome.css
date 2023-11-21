@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+.logo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    height: 60px;
+    background-color: rgb(224, 224, 224);
+}
+
+header nav a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.image {
+    height: 430px;
+    width: 100%;
+}
+
+.title1 {
+    color: rgb(5, 37, 154);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title2,
+.title3 {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img2 {
+    margin: auto;
+    height: 150px;
+    width: 160px;
+    border-radius: 90px;
+
+}
+
+.taxt {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.last {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    height: 180px;
+    background-color: rgb(224, 224, 224);
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+
+}
+
+
+.canter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 766px){
+    header nav a {
+        font-size: 11px;
+    }
+    .split{
+        height: 30px;
+    }
+    .taxt{
+        max-width: 100%;
+    } 
+}

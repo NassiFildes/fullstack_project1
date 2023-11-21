@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+}
+.logo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    height: 60px;
+    background-color: rgb(224, 224, 224);
+}
+
+header nav a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.contact{
+    width: 350px;
+    margin: auto;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(5, 37, 154);
+    color: white;
+    margin-top: 8px;
+}
+footer {
+    height: 180px;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.final {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+
+}
+
+.canter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 766px){
+    header nav a {
+        font-size: 11px;
+    }
+}

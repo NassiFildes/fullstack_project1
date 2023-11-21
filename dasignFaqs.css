@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+}
+
+.logo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    height: 60px;
+    background-color: rgb(224, 224, 224);
+}
+
+header nav a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.taxt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    margin-left: 40px;
+}
+
+footer {
+    height: 180px;
+    background-color: rgb(224, 224, 224);
+}
+
+.final {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+
+}
+
+.canter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 766px) {
+    header nav a {
+        font-size: 11px;
+    }
+
+    .taxt {
+        margin-left: 15px;
+    }
+}
